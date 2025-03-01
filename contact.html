@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rachel Hill">
+    <meta name="description" content="Get in touch with Snowcrest Resort for inquiries, bookings, and assistance.">
+    
+    <title>Snowcrest Resort | Contact</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Snowcrest Resort</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+      <h2 class="hidden-headers">hero</h2>
+      <img src="images/swiss-valley.jpg" alt="Scenic view of the Swiss Alps valley with mountains in the background" width="1280" height="500">
+    </section>
+    <main class="contact-page">
+      <section class="contact-intro">
+        <h2>Contact Us</h2>
+        <p >
+          Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+        </p>
+      </section>
+      <p class="contact-note"><strong>Required fields are marked with a *</strong></p>
+      <section class="contact-image">
+        <h2 class="hidden-headers">contact image</h2>
+        <img src="images/swiss-peak.jpg" alt="Breathtaking view of the Swiss Alps" width="600" height="250">
+      </section>
+      <section class="form-container">
+        <h2 class="hidden-headers">form container</h2>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+          <section class="form-left">
+            <h2 class="hidden-headers">left form</h2>
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+  
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+          </section>
+          <section class="form-right">
+            <h2 class="hidden-headers">right form</h2>
+            <fieldset class="contact-method">
+              <legend>Preferred Contact Method *</legend>
+              <section class="radio-options">
+                <h2 class="hidden-headers"> contact options</h2>
+                <label>
+                  <input type="radio" name="contact-method" value="email" required> Email
+                </label>
+                <label>
+                  <input type="radio" name="contact-method" value="phone" required> Phone
+                </label>
+              </section>
+            </fieldset>
+            <label for="message">Comments *</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+          </section>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright ©2023 - Snowcrest Resort</p>
+      <p>This site is for educational purposes only</p>
+    </footer>
+  </body>
+</html>
