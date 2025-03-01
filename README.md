@@ -15,7 +15,7 @@ This project **does not have backend functionality**—it is purely a front-end 
 
 ## 🌍 Live Demo
 Check out the live version of **Snowcrest Resort** here:  
-🔗 [View Site]()
+🔗 [View Site](https://brendel-r.github.io/snowcrestResort/)
 
 ---
 
